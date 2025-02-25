@@ -4,18 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="6797a690-10ba-4420-bf1b-ad6161641844" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/model/Biblioteca.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/model/Emprestimo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/model/Livro.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/model/Usuario.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/view/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ProjetoFinalPOO/model/Biblioteca.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ProjetoFinalPOO/model/Emprestimo.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ProjetoFinalPOO/model/Livro.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ProjetoFinalPOO/model/Usuario.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ProjetoFinalPOO/view/Main.class" beforeDir="false" />
-    </list>
+    <list default="true" id="6797a690-10ba-4420-bf1b-ad6161641844" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -92,7 +81,7 @@
       <updated>1739390641185</updated>
       <workItem from="1739390642217" duration="2221000" />
       <workItem from="1739409285741" duration="57000" />
-      <workItem from="1739841100868" duration="326000" />
+      <workItem from="1739841100868" duration="866000" />
     </task>
     <servers />
   </component>

@@ -1,0 +1,4 @@
+1;Dom Casmurro;Machado de Assis;false
+2;A Sereia;Kiera Cass;false
+3;Memórias Póstumas de Brás Cubas;Machado de Assis;false
+4;O Alquimista;Paulo Coelho;false
