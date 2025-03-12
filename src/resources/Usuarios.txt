@@ -1,3 +1,4 @@
-1;Riquelme Oliveira
-2;João Vitor
-3;Sávio Espalha
+
+1;Joao;joao@teste.com;[1, 2, 3, 4, 5, 6]
+2;Maria;maria@teste.com;[6, 5, 4, 3, 2, 1]
+1;jose;jose@teste.com;[8, 7, 6, 5, 4, 3, 2]

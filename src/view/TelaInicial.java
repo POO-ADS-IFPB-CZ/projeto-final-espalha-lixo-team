@@ -14,7 +14,7 @@ public class TelaInicial extends JFrame {
         ImageIcon icon = new ImageIcon("src/img/logoBiblioteca.png");
         setIconImage(icon.getImage());
         setTitle("Biblioteca Comunitária");
-        setSize(470, 500);
+        setSize(450, 500);
         setResizable(false);
         setLocationRelativeTo(null);
         getRootPane().setDefaultButton(cadastrarLivroButton);
