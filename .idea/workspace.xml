@@ -5,15 +5,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="6797a690-10ba-4420-bf1b-ad6161641844" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/img/background-tela-inicial.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/img/logoBiblioteca.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/view/TelaInicial.form" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/view/TelaInicial.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/projeto-final-espalha-lixo-team.iml" beforeDir="false" afterPath="$PROJECT_DIR$/projeto-final-espalha-lixo-team.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/view/TelaCadastroUsuario.form" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/view/TelaCadastroUsuario.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/view/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/view/TelaCadastro.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/view/TelaInicial.form" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/view/TelaInicial.java" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -61,6 +58,7 @@
   "keyToString": {
     "ASKED_SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "Application.Main.executor": "Run",
+    "Application.TelaCadastro.executor": "Run",
     "Application.TelaDeInicializacao.executor": "Run",
     "Application.TelaDeInicio.executor": "Run",
     "Application.TelaInicial.executor": "Run",
@@ -92,6 +90,19 @@
     </key>
   </component>
   <component name="RunManager" selected="Application.TelaInicial">
+    <configuration name="TelaCadastro" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="view.TelaCadastro" />
+      <module name="projeto-final-espalha-lixo-team" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="view.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="TelaDeInicializacao" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="view.TelaDeInicializacao" />
       <module name="projeto-final-espalha-lixo-team" />
@@ -134,6 +145,7 @@
     <recent_temporary>
       <list>
         <item itemvalue="Application.TelaInicial" />
+        <item itemvalue="Application.TelaCadastro" />
         <item itemvalue="Application.TelaDeInicializacao" />
         <item itemvalue="Application.TelaDeInicio" />
       </list>
