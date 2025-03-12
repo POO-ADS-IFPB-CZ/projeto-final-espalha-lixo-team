@@ -1,7 +1,12 @@
 package view;
 
+import dao.UsuarioDAO;
+import model.Usuario;
+
 import javax.swing.*;
 import java.awt.event.*;
+import java.io.IOException;
+import java.util.Arrays;
 
 public class TelaCadastroUsuario extends JDialog {
     private JPanel contentPane;
@@ -11,46 +16,34 @@ public class TelaCadastroUsuario extends JDialog {
     private JFormattedTextField campoEmail;
     private JPasswordField campoPassword;
 
+    UsuarioDAO usuarioDAO = new UsuarioDAO();
+
     public TelaCadastroUsuario() {
         setContentPane(contentPane);
         setModal(true);
         getRootPane().setDefaultButton(buttonOK);
 
         buttonOK.addActionListener(new ActionListener() {
+            @Override
             public void actionPerformed(ActionEvent e) {
-                onOK();
+                if(validarCampos()){
+                    String nome = campoNome.getText();
+                    String email = campoEmail.getText();
+                    String senha = Arrays.toString(campoPassword.getPassword());
+
+                    Usuario usuario = new Usuario(nome, email);
+                }
+                try {
+                    if(usuarioDAO.adicionarUsuario(usuario)){
+                        JOptionPane.showMessageDialog(null,"Salvo com Sucesso!");
+                    }
+                } catch (IOException ex) {
+
+                } catch (ClassNotFoundException ex) {
+
+                }
             }
         });
 
-        buttonCancel.addActionListener(new ActionListener() {
-            public void actionPerformed(ActionEvent e) {
-                onCancel();
-            }
-        });
-
-        // call onCancel() when cross is clicked
-        setDefaultCloseOperation(DO_NOTHING_ON_CLOSE);
-        addWindowListener(new WindowAdapter() {
-            public void windowClosing(WindowEvent e) {
-                onCancel();
-            }
-        });
-
-        // call onCancel() on ESCAPE
-        contentPane.registerKeyboardAction(new ActionListener() {
-            public void actionPerformed(ActionEvent e) {
-                onCancel();
-            }
-        }, KeyStroke.getKeyStroke(KeyEvent.VK_ESCAPE, 0), JComponent.WHEN_ANCESTOR_OF_FOCUSED_COMPONENT);
-    }
-
-    private void onOK() {
-        // add your code here
-        dispose();
-    }
-
-    private void onCancel() {
-        // add your code here if necessary
-        dispose();
     }
 }

@@ -1,3 +1,7 @@
+package dao;
+
+import model.Livro;
+
 import javax.swing.*;
 import java.io.*;
 import java.util.ArrayList;

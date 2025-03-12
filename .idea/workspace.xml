@@ -5,12 +5,16 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="6797a690-10ba-4420-bf1b-ad6161641844" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/view/TelaCadastroUsuario.form" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/view/TelaCadastroUsuario.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/view/TelaCadastro.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/view/TelaInicial.form" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/view/TelaInicial.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/dao/BibliotecaDAO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/dao/BibliotecaDAO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/dao/EmprestimoDAO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/dao/EmprestimoDAO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/dao/LivroDAO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/dao/LivroDAO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/dao/UsuarioDAO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/dao/UsuarioDAO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/model/Biblioteca.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/model/Biblioteca.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/model/Emprestimo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/model/Emprestimo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/model/Livro.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/model/Livro.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/model/Usuario.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/model/Usuario.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/view/TelaCadastroUsuario.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/view/TelaCadastroUsuario.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -64,7 +68,7 @@
     "Application.TelaInicial.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.git.unshallow": "true",
-    "git-widget-placeholder": "main",
+    "git-widget-placeholder": "adicionando-telas",
     "ignore.virus.scanning.warn.message": "true",
     "kotlin-language-version-configured": "true",
     "last_opened_file_path": "C:/Users/jvict/Desktop/projeto-final-espalha-lixo-team/src/img",
