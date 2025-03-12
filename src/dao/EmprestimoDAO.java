@@ -1,3 +1,9 @@
+package dao;
+
+import model.Emprestimo;
+import model.Livro;
+import model.Usuario;
+
 import java.io.*;
 import java.text.SimpleDateFormat;
 import java.util.ArrayList;
