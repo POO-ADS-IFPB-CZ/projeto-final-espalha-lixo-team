@@ -1,67 +1,53 @@
 package view;
 
 import javax.swing.*;
-import java.awt.event.*;
 
-public class TelaInicial extends JDialog {
+public class TelaInicial extends JFrame {
     private JPanel contentPane;
-    private JButton buttonOK;
-    private JButton buttonCancel;
+    private JButton cadastrarLivroButton;
+    private JButton emprestarLivroButton;
+    private JButton cadastrarUsuario;
 
     public TelaInicial() {
         setContentPane(contentPane);
+        setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
         ImageIcon icon = new ImageIcon("src/img/logoBiblioteca.png");
         setIconImage(icon.getImage());
         setTitle("Biblioteca Comunitária");
-        setSize(1200, 1200);
+        setSize(470, 500);
         setResizable(false);
         setLocationRelativeTo(null);
-        setModal(true);
-        getRootPane().setDefaultButton(buttonOK);
+        getRootPane().setDefaultButton(cadastrarLivroButton);
 
-        buttonOK.addActionListener(new ActionListener() {
-            public void actionPerformed(ActionEvent e) {
-                onOK();
-            }
+        cadastrarLivroButton.addActionListener(e -> {
+            TelaCadastrarLivro cadastroLivro = new TelaCadastrarLivro();
+            dispose();
+            cadastroLivro.pack();
+            cadastroLivro.setLocationRelativeTo(null);
+            cadastroLivro.setVisible(true);
+            setVisible(true);
         });
 
-        // Ao clicar no botão "Não", abre a TelaCadastro
-        buttonCancel.addActionListener(new ActionListener() {
-            public void actionPerformed(ActionEvent e) {
-                onCancel();
-            }
+        emprestarLivroButton.addActionListener(e -> {
+            TelaEmprestarLivro emprestimoLivro = new TelaEmprestarLivro();
+            dispose();
+            emprestimoLivro.pack();
+            emprestimoLivro.setLocationRelativeTo(null);
+            emprestimoLivro.setVisible(true);
+            setVisible(true);
         });
 
-        setDefaultCloseOperation(DO_NOTHING_ON_CLOSE);
-        addWindowListener(new WindowAdapter() {
-            public void windowClosing(WindowEvent e) {
-                onCancel();
-            }
+        cadastrarUsuario.addActionListener(e->{
+            TelaCadastroUsuario cadastroUsuario = new TelaCadastroUsuario();
+            dispose();
+            cadastroUsuario.pack();
+            cadastroUsuario.setLocationRelativeTo(null);
+            cadastroUsuario.setVisible(true);
+            setVisible(true);
         });
-
-        contentPane.registerKeyboardAction(new ActionListener() {
-            public void actionPerformed(ActionEvent e) {
-                onCancel();
-            }
-        }, KeyStroke.getKeyStroke(KeyEvent.VK_ESCAPE, 0), JComponent.WHEN_ANCESTOR_OF_FOCUSED_COMPONENT);
     }
-
-    private void onOK() {
-        // Lógica para o botão OK
-        dispose();
-    }
-
-    private void onCancel() {
-        // Abre a tela de cadastro e fecha a tela inicial
-        TelaCadastro cadastro = new TelaCadastro();
-        cadastro.setVisible(true);
-        dispose();
-    }
-
     public static void main(String[] args) {
         TelaInicial dialog = new TelaInicial();
-        dialog.pack();
         dialog.setVisible(true);
-        System.exit(0);
     }
 }
