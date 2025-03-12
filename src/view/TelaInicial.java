@@ -13,7 +13,7 @@ public class TelaInicial extends JDialog {
         ImageIcon icon = new ImageIcon("src/img/logoBiblioteca.png");
         setIconImage(icon.getImage());
         setTitle("Biblioteca Comunitária");
-        setSize(1200,1200);
+        setSize(1200, 1200);
         setResizable(false);
         setLocationRelativeTo(null);
         setModal(true);
@@ -25,13 +25,13 @@ public class TelaInicial extends JDialog {
             }
         });
 
+        // Ao clicar no botão "Não", abre a TelaCadastro
         buttonCancel.addActionListener(new ActionListener() {
             public void actionPerformed(ActionEvent e) {
                 onCancel();
             }
         });
 
-        // call onCancel() when cross is clicked
         setDefaultCloseOperation(DO_NOTHING_ON_CLOSE);
         addWindowListener(new WindowAdapter() {
             public void windowClosing(WindowEvent e) {
@@ -39,7 +39,6 @@ public class TelaInicial extends JDialog {
             }
         });
 
-        // call onCancel() on ESCAPE
         contentPane.registerKeyboardAction(new ActionListener() {
             public void actionPerformed(ActionEvent e) {
                 onCancel();
@@ -48,12 +47,14 @@ public class TelaInicial extends JDialog {
     }
 
     private void onOK() {
-        // add your code here
+        // Lógica para o botão OK
         dispose();
     }
 
     private void onCancel() {
-        // add your code here if necessary
+        // Abre a tela de cadastro e fecha a tela inicial
+        TelaCadastro cadastro = new TelaCadastro();
+        cadastro.setVisible(true);
         dispose();
     }
 
