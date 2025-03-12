@@ -5,16 +5,19 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="6797a690-10ba-4420-bf1b-ad6161641844" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/src/img/background-tela-inicial-atualizado.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/dao/BibliotecaDAO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/dao/BibliotecaDAO.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/dao/EmprestimoDAO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/dao/EmprestimoDAO.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/dao/LivroDAO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/dao/LivroDAO.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/dao/UsuarioDAO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/dao/UsuarioDAO.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/model/Biblioteca.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/model/Biblioteca.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/model/Emprestimo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/model/Emprestimo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/model/Livro.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/model/Livro.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/model/Usuario.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/model/Usuario.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/resources/Usuarios.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/resources/Usuarios.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/view/TelaCadastrarLivro.form" beforeDir="false" afterPath="$PROJECT_DIR$/src/view/TelaCadastrarLivro.form" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/view/TelaCadastrarLivro.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/view/TelaCadastrarLivro.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/view/TelaCadastroUsuario.form" beforeDir="false" afterPath="$PROJECT_DIR$/src/view/TelaCadastroUsuario.form" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/view/TelaCadastroUsuario.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/view/TelaCadastroUsuario.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/view/TelaEmprestarLivro.form" beforeDir="false" afterPath="$PROJECT_DIR$/src/view/TelaEmprestarLivro.form" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/view/TelaEmprestarLivro.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/view/TelaEmprestarLivro.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/view/TelaInicial.form" beforeDir="false" afterPath="$PROJECT_DIR$/src/view/TelaInicial.form" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/view/TelaInicial.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/view/TelaInicial.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -68,10 +71,10 @@
     "Application.TelaInicial.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.git.unshallow": "true",
-    "git-widget-placeholder": "adicionando-telas",
+    "git-widget-placeholder": "implementacao-dos-arquivos",
     "ignore.virus.scanning.warn.message": "true",
     "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "C:/Users/jvict/Desktop/projeto-final-espalha-lixo-team/src/img",
+    "last_opened_file_path": "D:/projeto-final-espalha-lixo-team/src/img",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -86,9 +89,11 @@
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\projeto-final-espalha-lixo-team\src\img" />
       <recent name="C:\Users\jvict\Desktop\projeto-final-espalha-lixo-team\src\img" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\projeto-final-espalha-lixo-team\src\img" />
       <recent name="C:\Users\jvict\Desktop\projeto-final-espalha-lixo-team\src\img" />
       <recent name="C:\Users\jvict\Desktop\projeto-final-espalha-lixo-team" />
     </key>

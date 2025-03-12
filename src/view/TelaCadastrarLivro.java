@@ -16,6 +16,9 @@ public class TelaCadastrarLivro extends JDialog {
     public TelaCadastrarLivro() {
         setContentPane(contentPane);
         setModal(true);
+        ImageIcon icon = new ImageIcon("src/img/logoBiblioteca.png");
+        setIconImage(icon.getImage());
+        setTitle("Biblioteca Comunitária");
         getRootPane().setDefaultButton(buttonOK);
 
         buttonOK.addActionListener(new ActionListener() {

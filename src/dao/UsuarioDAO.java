@@ -9,13 +9,14 @@ import java.util.List;
 public class UsuarioDAO {
     private static final String ARQUIVO = "src/resources/Usuarios.txt";
 
-    public void adicionarUsuario(Usuario usuario) {
+    public boolean adicionarUsuario(Usuario usuario) {
         try (BufferedWriter writer = new BufferedWriter(new FileWriter(ARQUIVO, true))) {
-            writer.write(usuario.getId() + ";" + usuario.getNome());
+            writer.write(usuario.getId() + ";" + usuario.getNome() + ";" + usuario.getEmail() + ";" + usuario.getSenha());
             writer.newLine();
         } catch (IOException e) {
             System.err.println("Erro ao salvar usuário: " + e.getMessage());
         }
+        return false;
     }
 
     public void removerUsuario(int id) {
@@ -43,7 +44,9 @@ public class UsuarioDAO {
                 String[] dados = linha.split(";");
                 int id = Integer.parseInt(dados[0]);
                 String nome = dados[1];
-                usuarios.add(new Usuario(id, nome));
+                String email = "";
+                String senha = "";
+                usuarios.add(new Usuario(id,nome,email,senha));
             }
         } catch (IOException e) {
             System.err.println("Erro ao carregar usuários: " + e.getMessage());
